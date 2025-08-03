@@ -1,0 +1,145 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+
+}
+
+.main {
+    background-image: url(https://live.staticflickr.com/4261/34747147484_ee0bf2e649_h.jpg);
+    height: 70vh;
+    background-repeat: no-repeat;
+
+    position: relative;
+}
+
+.box {
+    width: 100%;
+    height: 70vh;
+    background: #00000070;
+    /* opacity: 0.44; */
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-direction: row;
+    padding: 12px;
+    /* background-color: #fff; */
+    width: 85vw;
+    justify-content: space-between;
+    color: aliceblue;
+    position: relative;
+    z-index: 2;
+}
+
+nav .list {
+    display: flex;
+    gap: 54px;
+}
+
+.cle {
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: center; */
+    position: relative;
+    top: 81px;
+    padding: 8px 33px;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+    z-index: 2;
+
+}
+
+.fot {
+    font-size: x-small;
+    display: flex;
+    width:
+        75%;
+    color: rgb(198, 195, 191);
+    z-index: 2;
+    margin: auto;
+    position: relative;
+    bottom: -200px;
+    gap: 202px;
+}
+
+.mid {
+    border: 2px saddlebrown;
+    /* background-color: aquamarine; */
+   margin: 76px 129px;
+    display: flex;
+    gap: 418px;
+}
+.mid button{
+   padding: 6px 10px;
+    border: 2px salmon;
+    border-radius: 46px;
+}
+.grid {
+    /* background-color: #151313; */
+    margin: auto;
+    width: 83vw;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 250px 250px; /* দুই লাইন */
+    grid-gap: 20px;
+    grid-template-areas:
+        "nav nav cal"
+        "side do fo";
+    padding: 20px;
+}
+
+.grid span {
+    background-size: cover;
+    background-position: center;
+    border-radius: 15px;
+}
+
+
+.grid .item1 { 
+    grid-area: nav; 
+    background-image: url(1.jpg); 
+}
+.grid .item2 { 
+    grid-area: cal; 
+    background-image: url(2.jpg); 
+}
+.grid .item3 { 
+    grid-area: side; 
+    background-image: url(3.jpg); 
+}
+.grid .item4 { 
+    grid-area: do; 
+    background-image: url(https://th.bing.com/th/id/OIP.vhAqesRXQEqI5VEUjmYJ_AAAAA?w=185&h=186&c=7&r=0&o=5&dpr=1.3&pid=1.7); 
+}
+.grid .item5 { 
+    grid-area: fo; 
+    background-image: url(https://th.bing.com/th/id/OIP.UTP3ai-mJw3V04x5W6oAQwHaEK?w=305&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7); 
+}
+.cal{
+    display: flex;
+    flex-direction: row;
+    color: antiquewhite;
+    width: 75%;
+    margin: auto;
+    justify-content: space-between;
+    position: relative;
+    top: 73px;
+}
+.footer .cal span ul {
+    display: flex;
+    flex-direction: column; /* লিস্টগুলো কলামে থাকবে */
+    gap: 12px;              /* লিস্টগুলোর মধ্যে gap */
+    list-style: none;       /* ডিফল্ট bullet remove */
+    padding: 0;
+    margin: 0;
+}
