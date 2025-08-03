@@ -137,9 +137,10 @@ nav .list {
 }
 .footer .cal span ul {
     display: flex;
-    flex-direction: column; /* লিস্টগুলো কলামে থাকবে */
-    gap: 12px;              /* লিস্টগুলোর মধ্যে gap */
-    list-style: none;       /* ডিফল্ট bullet remove */
+    flex-direction: column; 
+    gap: 12px;              
+    list-style: none;      
     padding: 0;
     margin: 0;
 }
+
